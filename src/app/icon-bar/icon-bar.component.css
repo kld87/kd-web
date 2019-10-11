@@ -1,0 +1,25 @@
+clr-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.6;
+}
+
+/* balance out thin icons by removing their margin */
+.thin-icon {
+  margin: 0rem;
+}
+
+.mid-icon {
+  maring: 0.1rem;
+}
+
+clr-icon:hover {
+    opacity: 1;
+}

@@ -1,0 +1,36 @@
+<div class="main-container">
+  <header class="header-1 clr-justify-content-center">
+    <div class="branding">
+      <span>
+        <a routerLink="/">
+          <clr-icon shape="id-badge"></clr-icon>
+          <span class="title">Kevin Dawe</span>
+        </a>
+      </span>
+    </div>
+  </header>
+
+  <nav class="subnav">
+    <ul class="nav clr-justify-content-center">
+      <li *ngFor="let nav of navs" class="nav-item">
+        <a class="nav-link" [class.active]="nav.route === activeRoute" [routerLink]="nav.route">{{nav.label}}</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="content-container">
+    <div class="content-area" id="content-root">
+
+      <router-outlet></router-outlet>
+
+      <div class="text-center margin-top-sm">
+        <small>Content copyright &copy; {{year}} Kevin Dawe unless otherwise stated or licensed.</small>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+

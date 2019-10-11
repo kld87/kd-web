@@ -1,0 +1,38 @@
+img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.label {
+  color: white;
+}
+.label-Angular {
+  background-color: #1976d2;
+}
+.label-Typescript {
+  background-color: #152740;
+}
+.label-Leaflet {
+  background-color: #1EB300;
+}
+.label-JavaScript {
+  background-color: #4D007A;
+}
+.label-React {
+  color: black;
+  background-color: #61dafb;
+}
+.label-Redux {
+  background-color: #764abc;
+}
+.label-Python {
+  color: black;
+  background-color: #ffd343;
+}
+.label-PHP {
+  background-color: #8892BF;
+}
+.label-AngularJS {
+  background-color: #dd1b16;
+}

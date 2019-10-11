@@ -1,0 +1,46 @@
+/* CLARITY OVERRIDES */
+
+/* override clarity's font w/out having to muddle w/ its .scss */
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  margin: 1rem 0 0 0;
+}
+.card-header {
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+}
+.card-title {
+  font-weight: 500;
+}
+
+.btn {
+  text-transform: none;
+  /*font-weight: bold;*/
+  min-width: unset;
+}
+
+
+/* TAGS */
+
+html, body {
+  height: 100%;
+}
+
+/* unvisited link */
+a, a:link, a:visited, a:hover, a:active {
+  cursor: pointer;
+  color: #33CCFF;
+}
+
+/* UTILITY CLASSES */
+
+.margin-top-sm {
+  margin-top: 0.5rem;
+}
+
+/* OTHER */

@@ -1,0 +1,15 @@
+<div class="text-center">
+  Below is a curated selection of some of the things I've worked on (and am able to share). For more examples, visit <a href="https://github.com/kld87">my GitHub profile</a>.
+</div>
+<div class="clr-row clr-justify-content-center">
+  <div class="clr-col-xl-1">&nbsp;</div>
+  <div class="clr-col-xl-10 clr-col-12">
+    <div class="clr-row">
+
+      <app-portfolio-card *ngFor="let card of cards" [card]='card'
+        class="clr-col-xl-4 clr-col-lg-6 clr-col-md-6 clr-col-12"></app-portfolio-card>
+
+    </div>
+  </div>
+  <div class="clr-col-xl-1">&nbsp;</div>
+</div>

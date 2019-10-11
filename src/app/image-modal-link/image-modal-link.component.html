@@ -1,0 +1,7 @@
+<a (click)="clicked($event)">{{text}}</a>
+
+<clr-modal [(clrModalOpen)]="isOpen" [clrModalStaticBackdrop]="false" [clrModalSize]="'lg'">
+  <div class="modal-body text-center">
+    <img src="assets/{{image}}" [alt]="alt"/>
+  </div>
+</clr-modal>

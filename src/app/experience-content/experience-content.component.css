@@ -1,0 +1,23 @@
+.clr-timeline.clr-timeline-vertical .clr-timeline-step-header {
+  width: 6rem;
+}
+.clr-timeline-step-title, .clr-timeline-step-description {
+  font-size: 0.5625rem;
+  line-height: 0.85rem;
+}
+
+.clr-timeline-step-body {
+  max-width: 640px;
+}
+
+.clr-timeline-step-title {
+  font-weight: 600;
+}
+
+em {
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
