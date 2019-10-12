@@ -1,4 +1,8 @@
-img {
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text img {
   cursor: not-allowed;
-  border: 1px solid #d7d7d7;
 }
