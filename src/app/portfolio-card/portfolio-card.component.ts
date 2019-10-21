@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./portfolio-card.component.css']
 })
 export class PortfolioCardComponent implements OnInit {
-  @Input() card: object;
+  @Input() card: any; //TODO: make into a class
 
   constructor() { }
 
