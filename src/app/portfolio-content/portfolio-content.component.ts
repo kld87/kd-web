@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioContentComponent implements OnInit {
   cards = [
     {
+      image: 'sp.png',
+      header: 'How to Ace a Technical Interview',
+      title: 'Professional Work',
+      labels: ['Writing'],
+      description: 'A blog post I wrote for Scalable Path to serve as a guide for how to prepare for the technical aspect of job interviews in the tech sector. Check it out if you\'re in the process of applying, or are simply curious!',
+      demoUrl: null,
+      websiteUrl: 'https://www.scalablepath.com/blog/how-to-ace-technical-interview/'
+    },
+    {
       image: 'ng-catering.png',
       header: 'ng-catering',
       title: 'Side Project',

@@ -1,31 +1,39 @@
 <div>
   <div class="card">
+
     <div class="card-img">
       <a *ngIf="card.websiteUrl || card.demoUrl" href="{{card.websiteUrl}}{{card.demoUrl}}">
         <img src="assets/{{card.image}}" alt="Portfolio card screenshot">
       </a>
       <img *ngIf="!card.websiteUrl && !card.demoUrl" src="assets/{{card.image}}" alt="Portfolio card screenshot">
     </div>
-    <div class="card-header">
-      <span *ngIf="card.header !== 'JUTTER!'">{{card.header}}</span>
-      <span *ngIf="card.header === 'JUTTER!'">
-        <span style="color: #E01B6A;">J</span>
-        <span style="color: #1BA5E0;">U</span>
-        <span style="color: #E0941B;">T</span>
-        <span style="color: #1BE07A;">T</span>
-        <span style="color: #E01BD0;">E</span>
-        <span style="color: #E03C1B;">R</span>!
-      </span>
-    </div>
-    <div class="card-block">
-      <div class="card-title">
-        {{card.title}}
-        <span *ngFor="let label of card.labels" class="label label-{{label}}">{{label}}</span>
+
+    <div class="card-body">
+
+      <div class="card-header">
+        <span *ngIf="card.header !== 'JUTTER!'">{{card.header}}</span>
+        <span *ngIf="card.header === 'JUTTER!'">
+          <span style="color: #E01B6A;">J</span>
+          <span style="color: #1BA5E0;">U</span>
+          <span style="color: #E0941B;">T</span>
+          <span style="color: #1BE07A;">T</span>
+          <span style="color: #E01BD0;">E</span>
+          <span style="color: #E03C1B;">R</span>!
+        </span>
       </div>
-      <div class="card-text">
-        <p>{{card.description}}</p>
+
+      <div class="card-block">
+        <div class="card-title">
+          {{card.title}}
+          <span *ngFor="let label of card.labels" class="label label-{{label}}">{{label}}</span>
+        </div>
+        <div class="card-text">
+          <p>{{card.description}}</p>
+        </div>
       </div>
+
     </div>
+
     <div class="card-footer text-right">
       <a [href]='card.codeUrl' *ngIf="card.codeUrl">
         <button class="btn btn-primary">
@@ -46,5 +54,8 @@
         </button>
       </a>
     </div>
+
+
+
   </div>
 </div>

@@ -1,3 +1,10 @@
+.card-body {
+  min-height: 300px;
+}
+.card-footer {
+  border-top: 1px solid #ededed;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -35,4 +42,7 @@ img {
 }
 .label-AngularJS {
   background-color: #dd1b16;
+}
+.label-Writing {
+  background-color: #555;
 }
