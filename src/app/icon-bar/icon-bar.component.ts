@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class IconBarComponent implements OnInit {
   text = {
     default: 'Hover over or tap the above for more info',
-    code: '<strong>Full Stack Developer:</strong> SaaS web applications written primarily in modern JavaScript (favouring Angular) and PHP',
+    code: '<strong>Full Stack Developer:</strong> SaaS web applications written primarily in modern JavaScript (favouring Angular/React) and PHP',
     host: '<strong>Sysadmin:</strong> Advanced Linux server administration (Ubuntu), Windows desktop/server, Avaya VOIP',
     storage: '<strong>Databases</strong>: MySQL, PostgreSQL, Redis',
     wifi: '<strong>Networking</strong>: Design, configuration & admin. Routing, subnetting, and VLANs. Ubiquiti, plus some Juniper & Cisco.',

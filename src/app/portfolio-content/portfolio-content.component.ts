@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioContentComponent implements OnInit {
   cards = [
     {
+      image: 'mastermind.jpg',
+      header: 'SUPER MASTERMIND!',
+      title: 'Side Project',
+      labels: ['React', 'TypeScript'],
+      description: 'A browser-based implementation of Super Mastermind, a colour-combination-guessing puzzle game I loved as a kid. Try to guess the hidden pattern of colours before you run out of tries!',
+      codeUrl: 'https://github.com/kld87/mastermind/',
+      demoUrl: '//kevindawe.ca/mastermind/'
+    },
+    {
       image: 'sp.png',
       header: 'How to Ace a Technical Interview',
       title: 'Professional Work',
@@ -20,9 +29,9 @@ export class PortfolioContentComponent implements OnInit {
       image: 'ng-catering.png',
       header: 'ng-catering',
       title: 'Side Project',
-      labels: ['Angular', 'Typescript'],
+      labels: ['Angular', 'TypeScript'],
       description: 'A PoC Menu building app written in Angular + TypeScript, utilizing the Clarity Design UI framework. Build menus from dishes composed from ingredients. Idea being that a catering company would reuse dishes and menus between functions.',
-      codeUrl: 'https://github.com/kld87/ng-catering',
+      codeUrl: 'https://github.com/kld87/ng-catering/',
       demoUrl: '//kevindawe.ca/ng-catering/'
     },
     {
@@ -31,7 +40,7 @@ export class PortfolioContentComponent implements OnInit {
       title: 'Side Project',
       labels: ['Leaflet', 'JavaScript'],
       description: 'This project uses Leaflet, some native and 3rd-party controls, plus some custom code I\'ve written to create a fixed-length grid to perform performant point-to-point analysis, along with heatmap-inspired grid styling. Try zooming in/out, click some markers, then explore the control bar in the top right for more functionality and information.',
-      codeUrl: 'https://github.com/kld87/leaflet-grid-analysis',
+      codeUrl: 'https://github.com/kld87/leaflet-grid-analysis/',
       demoUrl: '//kevindawe.ca/lgas/'
     },
     {
@@ -40,7 +49,7 @@ export class PortfolioContentComponent implements OnInit {
       title: 'Side Project',
       labels: ['React', 'Redux'],
       description: 'An implementation of React + Redux, in particular as a means of using Redux to facilitate reusable components that maintain control of their own state, but could also share it elsewhere (without "lifting state up"). Mostly I just wanted to learn concepts and see what was possible.',
-      codeUrl: 'https://github.com/kld87/react-redux-sandbox',
+      codeUrl: 'https://github.com/kld87/react-redux-sandbox/',
       demoUrl: '//kevindawe.ca/rrs/'
     },
     {
@@ -49,7 +58,7 @@ export class PortfolioContentComponent implements OnInit {
       title: 'Open Source Plugin',
       labels: ['Python'],
       description: 'I\'m a collaborator and contributor for a Sublime Text plugin which allows you to run ng cli commands from within the IDE. This includes running and killing "ng serve" respective to your host OS.',
-      codeUrl: 'https://github.com/4ern/angular-cli-for-sublime-text',
+      codeUrl: 'https://github.com/4ern/angular-cli-for-sublime-text/',
       demoUrl: null,
       websiteUrl: 'https://packagecontrol.io/packages/Angular%20CLI'
     },
@@ -69,7 +78,7 @@ export class PortfolioContentComponent implements OnInit {
       title: 'Browser Game',
       labels: ['JavaScript'],
       description: 'A little HTML5 game I made ages ago, which happens to be my favourite hobby project from my old website. Give it a try and see how high of a score you can get!',
-      codeUrl: 'https://github.com/kld87/jutter',
+      codeUrl: 'https://github.com/kld87/jutter/',
       demoUrl: '//kevindawe.ca/jutter.html'
     },
   ];
