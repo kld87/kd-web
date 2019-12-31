@@ -17,7 +17,7 @@ export class IconBarComponent implements OnInit {
     'network-globe': '<strong>GIS:</strong> Geoserver, PostGIS, QGIS, Leaflet, OpenStreetMaps, Nominatim, OpenLayers, Google Maps',
     lock: '<strong>Security:</strong> System hardening, secure coding & review, firewall & IDS/IPS configuration',
     users: '<strong>Team Lead:</strong> Product owner and development team lead, architect, mentor, and code reviewer',
-    'file-group': '<strong>Writing:</strong> Documentation, API reference, technical writing',
+    'file-group': '<strong>Writing:</strong> Documentation, API reference, technical writing & editing',
   };
   activeText = 'default';
 
