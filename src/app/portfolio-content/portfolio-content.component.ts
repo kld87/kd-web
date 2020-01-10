@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioContentComponent implements OnInit {
   cards = [
     {
+      image: 'cryptolocker.jpg',
+      header: 'How to protect against ransomware attacks',
+      title: 'Medium Post',
+      labels: ['Writing'],
+      description: 'My first article on Medium about how to protect your organization from the growing threat of ransomware attacks, given my experience as a sysadmin. Image credit: SkillUp/Shutterstock.com',
+      demoUrl: null,
+      websiteUrl: 'https://medium.com/@KevinDawe/how-to-protect-your-organization-from-the-growing-threat-of-ransomware-attacks-d2fd6588c92a'
+    },
+    {
       image: 'mastermind.jpg',
       header: 'SUPER MASTERMIND!',
       title: 'Side Project',
