@@ -8,13 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioContentComponent implements OnInit {
   cards = [
     {
+      image: 'owasp.jpg',
+      header: 'An Alternative Perspective to OWASP\'s Top 10',
+      title: 'Medium Post',
+      labels: ['Writing'],
+      description: 'A 3-point alternative framework to OWASP\'s Top Ten web application security risks. Essentially just my take and guide on how to secure a web app, contrasted against OWASP. Published in Better Programming on Medium.',
+      demoUrl: null,
+      websiteUrl: 'https://medium.com/better-programming/a-3-point-alternative-to-owasps-top-10-security-risks-4e659d1b7b80?source=friends_link&sk=9d9dd6ae15da43364e5d42c10976f6ef'
+    },
+    {
       image: 'cryptolocker.jpg',
       header: 'How to protect against ransomware attacks',
       title: 'Medium Post',
       labels: ['Writing'],
-      description: 'My first article on Medium about how to protect your organization from the growing threat of ransomware attacks, given my experience as a sysadmin. Image credit: SkillUp/Shutterstock.com',
+      description: 'My first article on Medium about how to protect your organization from the growing threat of ransomware attacks, given my experience as a sysadmin.',
       demoUrl: null,
-      websiteUrl: 'https://medium.com/@KevinDawe/how-to-protect-your-organization-from-the-growing-threat-of-ransomware-attacks-d2fd6588c92a'
+      websiteUrl: 'https://medium.com/@KevinDawe/how-to-protect-your-organization-from-the-growing-threat-of-ransomware-attacks-d2fd6588c92a?source=friends_link&sk=21cd9f897c9b7010de7e6834a2d3710e'
     },
     {
       image: 'mastermind.jpg',
