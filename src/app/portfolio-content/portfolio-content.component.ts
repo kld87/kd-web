@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioContentComponent implements OnInit {
   cards = [
     {
+      image: 'thread.jpg',
+      header: 'How to Create a Threaded Web Scanner in Python',
+      title: 'Script / Writeup',
+      labels: ['Python', 'Writing'],
+      description: 'The great thing about Python is that it makes developers\' lives easy - import a couple of libraries to do the hard stuff for you, and you\'re off to the races. This holds true when creating a threaded web scanner that\'s capable of making multiple concurrent requests in about 100 lines of code.',
+      codeUrl: 'https://github.com/kld87/pywebscan/',
+      websiteUrl: 'https://levelup.gitconnected.com/how-to-create-a-threaded-web-scanner-in-python-de954d31b042?source=friends_link&sk=888874fe3ca30b267e6699a9c9d5d458'
+    },
+    {
       image: 'owasp.jpg',
       header: 'An Alternative Perspective to OWASP\'s Top 10',
       title: 'Medium Post',
